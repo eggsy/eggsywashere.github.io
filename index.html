@@ -109,9 +109,11 @@
   </div>
 
   <script>
-    document.querySelector("#closeMinimize").addEventListener("click", () => {
-      alert("Oof, Google wouldn't allow us to do that. Sorry :<")
-    });
+    document.querySelectorAll("#closeMinimize").forEach(el => {
+      el.addEventListener("click", () => {
+        alert("Oof, Google wouldn't allow us to do that. Sorry :<")
+      });
+    })
 
     document.querySelector("#something").addEventListener("click", () => {
       const wow = confirm("If you click OK, you'll be redirected to my GitHub page. Yeah, this button doesn't look like something capable of this but believe me it is!");
