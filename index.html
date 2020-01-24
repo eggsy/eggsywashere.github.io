@@ -9,16 +9,139 @@
   <meta name="theme-color" content="#212121">
   <meta name="og:title" content="EGGSY's Website">
   <meta name="og:description" content="This page will redirect you to the main website...">
+  <link rel="canonical" href="https://eggsy.codes/">
+  <!--<meta http-equiv="refresh" content="0;URL=https://eggsy.codes/" />-->
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #212121;
+      color: black;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    .box {
+      border: 10px white;
+      background-color: white;
+      width: 50vh;
+      height: 25vh;
+      box-shadow: 60px -16px teal;
+    }
+
+    .buttons {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 4px;
+    }
+
+    .title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Arial Narrow", Arial, sans-serif;
+    }
+
+    .lds-heart {
+      margin-top: 6vh;
+      margin-left: 20vh;
+      display: inline-block;
+      position: relative;
+      width: 80px;
+      height: 80px;
+      transform: rotate(45deg);
+      transform-origin: 40px 40px;
+    }
+
+    .lds-heart div {
+      top: 32px;
+      left: 32px;
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: black;
+      animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    .lds-heart div:after,
+    .lds-heart div:before {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: 32px;
+      height: 32px;
+      background: black;
+    }
+
+    .lds-heart div:before {
+      left: -24px;
+      border-radius: 50% 0 0 50%;
+    }
+
+    .lds-heart div:after {
+      top: -24px;
+      border-radius: 50% 50% 0 0;
+    }
+
+    @keyframes lds-heart {
+      0% {
+        transform: scale(0.95);
+      }
+
+      5% {
+        transform: scale(1.1);
+      }
+
+      39% {
+        transform: scale(0.85);
+      }
+
+      45% {
+        transform: scale(1);
+      }
+
+      60% {
+        transform: scale(0.95);
+      }
+
+      100% {
+        transform: scale(0.9);
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Please wait...</h1>
+  <div class="content">
+    <div class="box">
+      <div>
+        <div class="title">
+          Redirecting...
+        </div>
+        <div class="buttons">
+          🟡⚪🟠
+        </div>
+      </div>
 
-  <script>
-    window.addEventListener("load", () => {
-      window.location.href = `https://eggsy.codes${document.location.pathname}`;
-    })
-  </script>
+      <div class="lds-heart">
+        <div></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
