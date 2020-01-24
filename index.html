@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This page will redirect you to the main website...">
+  <meta name="og:site_name" content="eggsy.codes">
+  <meta name="theme-color" content="#212121">
+  <meta name="og:title" content="EGGSY's Website">
+  <meta name="og:description" content="This page will redirect you to the main website...">
+</head>
+
+<body>
+  <h1>Please wait...</h1>
+
+  <script>
+    window.addEventListener("load", () => {
+      window.location.href = `https://eggsy.codes${document.location.pathname}`;
+    })
+  </script>
+</body>
+
+</html>
