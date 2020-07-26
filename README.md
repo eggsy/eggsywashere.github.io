@@ -1,2 +1,3 @@
 ### eggsy.github.io
-A small webpage that I'm going to use for [eggsy.js.org](https://eggsy.js.org), small boxes, cool text and stuff! 
+
+Visit the source code at [eggsywashere/fullpage-portfolio](https://github.com/eggsywashere/fullpage-portfolio) and get yourself a template like this easily! Please see the demo at [eggsy.js.org](https://eggsy.js.org).
