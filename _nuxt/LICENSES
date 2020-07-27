@@ -11,9 +11,29 @@
  */
 
 /*!
+ * fullPage 3.0.8 - Extensions 0.1.9
+ * https://github.com/alvarotrigo/fullPage.js
+ * @license http://alvarotrigo.com/fullPage/extensions/#license
+ *
+ * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo
+ */
+
+/*!
  * vue-client-only v2.0.0
  * (c) 2019-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
+ */
+
+/*!
+ * vue-fullpage.js v0.1.5
+ * https://github.com/alvarotrigo/vue-fullpage.js
+ *
+ * @license vue-fullpage is released under the MIT license but notice
+ * fullPage.js is licensed under GPLv3 for open source use only
+ * or Fullpage Commercial License for commercial use
+ * http://alvarotrigo.com/fullPage/pricing/
+ *
+ * Copyright (C) 2018 http://alvarotrigo.com/vue-fullpage/ - A project by Alvaro Trigo
  */
 
 /*!
